@@ -1,0 +1,122 @@
+article{
+    width: 80%;
+}
+aside{
+    width: 15%;
+    height: 15%;
+    background: #FFF;
+    border: solid 3px #8b8d91;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10%;
+}
+
+.navigationbar {
+    text-align: center;
+    padding: auto;
+    margin-right: 300px;
+    margin-left: 300px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-weight: bold;
+    color: #6091d3;/*文字色*/
+    background: #FFF;
+    border: solid 3px #8b8d91;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+.navigationbar a {
+    display: inline-block;
+    margin: 10px;
+    padding: 0;
+}
+
+.btn-flat-border {
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: #67bbff;
+    border: solid 2px #67bbff;
+    border-radius: 3px;
+    transition: .4s;
+}
+  
+.btn-flat-border:hover {
+    background: #67c5ff;
+    color: white;
+}
+
+.search_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    margin: 25px 200px 25px 200px;
+    padding: 0.5em 1em;
+  }
+  .search_container input[type="text"]{
+    text-align: center;
+    background: #FFFF;
+    border: solid 2px #8b8d91;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    height:45px
+  }
+  .search_container input[type="text"]:focus {
+    text-align: center;
+    outline: 0;
+  }
+  .search_container input[type="submit"]{
+    cursor: pointer;
+    border: none;
+    background: #3879D9;
+    color: #fff;
+    outline : none;
+    height: 2.2em;
+  }
+  .search_container ::-webkit-input-placeholder {
+      text-align: centerr
+  }
+
+.table {
+    margin: auto;
+}
+
+.box2 {
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-left: 10px;
+    background: #FFF;
+    border: solid 3px #8b8d91;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    padding: 10px;
+    display: inline-block;
+}
+ 
+.box2 p {
+    margin:auto;
+    font-weight: bold;
+}
+  
+.checkbox{
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #FFF;
+    border: solid 3px #8b8d91;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    padding: 10px;
+    display: block;
+}
+
+footer{
+    background: #432;
+    text-align: center;
+    padding: 15px 0;
+}
+footer p{
+    color: #fff;
+    font-size:0.875rem
+}

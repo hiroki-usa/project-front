@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+body{
+    line-height: 1.5;
+    color: black;
+
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+/* サイドとメインの大きさ */
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10%;
+}
+article{
+    width: 80%;
+}
+aside{
+    width: 15%;
+    height: 15%;
+    background: #FFF;
+    border: solid 3px #8b8d91;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+
+
+
+/* ヘッダー */
+.page-header{
+    display: block;
+}
+
+.wrapper{
+    margin:0 15%;
+    padding: 0 10px;
+}
+
+
+/* ナビゲーションバー */
+.main-nav{
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 50px;
+    list-style: none;
+    background: #FFF;
+    border: solid 3px #8b8d91;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    padding: 10px;
+}
+
+.main-nav li{
+    margin: auto;
+}
+
+.main-nav a{
+    text-decoration: none;
+    color: #67bbff;
+    border: solid 2px #67bbff;
+    border-radius: 3px;
+    transition: .4s;
+}
+
+.main-nav a:hover{
+    background: #67c5ff;
+    color: white;
+}
+
+
+/* サーチバー */
+.searchbar{
+    display: block;
+    margin:0 15%;
+    padding: 0 10px;
+}
+
+/* 検索バー */
+/* .inputbox{
+
+} */
+
+/* 検索ボタン */
+.searchbuttons{
+    display: block;
+}
+
+/* テーブル */
+.table {
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+/* 見出し */
+.box2 {
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-left: 10px;
+    background: #FFF;
+    border: solid 3px #8b8d91;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    padding: 10px;
+    display: inline-block;
+}
+ 
+.box2 p {
+    margin:auto;
+    font-weight: bold;
+}
+  
+
+/* サイドのチェックボックス */
+.checkbox{
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #FFF;
+    border: solid 3px #8b8d91;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    padding: 10px;
+    display: block;
+}
+
+
+/* フッター */
+footer{
+    background: #432;
+    text-align: center;
+    padding: 15px 0;
+}
+footer p{
+    color: #fff;
+    font-size:0.875rem
+}

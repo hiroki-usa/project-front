@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+ <title>ぐるなび店舗リスト</title> 
+ <link rel="stylesheet" href="style.css">
+ <!-- <link rel="stylesheet" href="body.css"> -->
+ <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+ <script src="https://unpkg.com/axios/dist/axios.min.js"></script> 
+ <script type="text/javascript" src="grnb_test.js"></script>
+</head>
+​
+ <body>
+     <div>
+          <div class="navigationbar" >
+               <a href="#" class="btn-flat-border">アイコン</a>
+               <a href="#" class="btn-flat-border">プロフィール</a>
+               <a href="#" class="btn-flat-border">ブックマーク</a>
+               <a href="#" class="btn-flat-border">検索履歴</a>
+               <a href="#" class="btn-flat-border">ログイン・ログアウト</a>
+          </div>
+
+          
+         
+          <form id="form1" action="#" class="search_container">
+                <input type="text" id="input_message"  size="60" placeholder="キーワード入力">
+                <input type="button" onclick="func1()" value="検索する">
+                <input type="button" onclick="clearText()" value="検索クリア"> 
+          </form>
+         
+     </div>
+     
+
+     <div class="main">
+          <aside>
+               <label class="checkbox">
+                    <input type="checkbox"> free text
+               </label>
+               <label class="checkbox">
+                    <input type="checkbox">  本文に含まれているワードを含む
+               </label>
+          </aside>
+
+          <article>
+               <div>
+                    <table id="2" border ="1" class="table">
+                         <tr bgcolor="teal"><th>論文名</th><th>出版日</th><th>著者名</th></tr>
+                    </table>
+               </div>
+
+               <div class="box2" >
+                    <p>最新論文</p>
+               </div>  
+               <br><br/>
+               <div class="box2" >
+                    <p>最近注目されている論文</p>
+               </div>  
+               <br><br/>
+               <div class="box2">
+                    <p>フォロワーの論文</p>
+               </div>
+          </article>
+     </div>
+    <footer>
+         <div>
+              <p>卒研</p>
+         </div>
+    </footer>
+
+ </body>
+ </html>
